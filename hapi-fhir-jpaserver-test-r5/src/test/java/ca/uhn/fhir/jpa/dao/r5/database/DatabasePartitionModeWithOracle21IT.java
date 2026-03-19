@@ -7,5 +7,5 @@ import org.springframework.test.context.ContextConfiguration;
 	EmbeddedDatabaseConfigurations.Oracle21.class
 })
 @OracleTest
-public class DatabaseVerificationWithOracle21IT extends BaseDatabaseVerificationIT {
+public class DatabasePartitionModeWithOracle21IT extends BaseDatabasePartitionModeIT {
 }

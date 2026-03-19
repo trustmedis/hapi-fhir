@@ -4,8 +4,8 @@ import ca.uhn.fhir.jpa.annotation.OracleTest;
 import org.springframework.test.context.ContextConfiguration;
 
 @ContextConfiguration(classes = {
-	EmbeddedDatabaseConfigurations.Oracle21.class
+	EmbeddedDatabaseConfigurations.Oracle23.class
 })
 @OracleTest
-public class DatabaseVerificationWithOracle21IT extends BaseDatabaseVerificationIT {
+public class DatabasePartitionModeWithOracle23IT extends BaseDatabasePartitionModeIT {
 }
